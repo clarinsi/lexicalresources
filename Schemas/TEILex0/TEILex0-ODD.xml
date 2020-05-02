@@ -2065,9 +2065,11 @@
                     <!--<moduleRef key="iso-fs" except="bicond binary cond default fDecl fDescr fLib fsConstraints fsDecl fsDescr fsdDecl fsdLink fvLib if iff numeric then vAlt vColl vDefault"/>
                     -->
                     <!-- 2018-09-02 (TT): added PB's simplified declaration of the header and namesdates -->
+                    <!-- 2020-05-02 (ET): added application and taxonomy with subordinate elements -->
                     <moduleRef key="header"
                         include="teiHeader fileDesc titleStmt editionStmt extent publicationStmt sourceDesc encodingDesc projectDesc seriesStmt
-                        notesStmt authority distributor idno edition funder availability licence appInfo classDecl namespace tagUsage tagsDecl rendition"/>
+				 notesStmt authority distributor idno edition funder availability licence appInfo application classDecl namespace tagUsage tagsDecl rendition
+				 taxonomy category catDesc"/>
                     <moduleRef key="namesdates" include="placeName"/>
                     <!-- for dialectal properties -->
                     <moduleRef key="tei" except="correspAction correspContext correspDesc"/>
