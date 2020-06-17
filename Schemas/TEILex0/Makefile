@@ -1,3 +1,6 @@
+diagnosis:
+	$s specificationFileName=TEILex0-ODD.xml -xsl:ODD-Diagnosis.xsl TEILex0-ODD.xml > TEILex0-ODD.html
+
 # Have to have local source of p5subset, as my Java is too old to fetch it with https!
 PARAMS = --localsource=p5subset.xml TEILex0-ODD.xml
 schema:
